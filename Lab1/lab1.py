@@ -209,16 +209,10 @@ x = complex(x)
 print("Hello")
 print('Hello')
 #1.2
-a = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
+a = 10
 print(a)
 #1.3
-a = '''Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua.'''
+a = "10"
 print(a)
 #2.1
 b = "Hello, World!"
@@ -408,7 +402,7 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
 #variables.py
-#1
+#1пмп
 x = 5
 y = "John"
 print(x)
