@@ -15,7 +15,7 @@ class Account:
 
 me = Account('Rasul', 5000)
 print(me)
-
+      
 me.deposit(400)
 print(me)
 

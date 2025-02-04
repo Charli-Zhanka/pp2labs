@@ -16,7 +16,7 @@ class Point:
 p = Point(1, 2)
 
 p.show()
-
+  
 p.move(+1, -5)
 p.show()
 
