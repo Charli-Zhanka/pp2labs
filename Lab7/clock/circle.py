@@ -7,7 +7,7 @@ screen_height = 400
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Moving Ball")
 
-ball_color = (255, 0, 0)  
+ball_color = (255, 0, 0)   
 ball_x = screen_width // 2  #init pos x
 ball_y = screen_height // 2 # init y
 ball_radius = 25
@@ -34,5 +34,5 @@ while running:
     pygame.draw.circle(screen, ball_color, (ball_x, ball_y), ball_radius)
 
     pygame.display.flip()
-
+   
 pygame.quit()
